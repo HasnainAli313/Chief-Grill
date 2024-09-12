@@ -9,7 +9,7 @@ function BestSeller() {
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, sint.</p>
         
         {/* items */}
-        <div className='flex  flex-wrap justify-around mt-[50px]'>
+        <div className='flex gap-10 flex-wrap justify-around mt-[50px]'>
             <div className=''>
                 <img className='m-auto w-[170px] rounded-[50%] h-[170px]' src={img1} alt="" />
                 <h4 className="custom-font text-xl  m-2 font-semibold text-black">TITLE HERE</h4>

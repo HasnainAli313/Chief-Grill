@@ -5,7 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="flex gap-10 bg-[#313030] text-white  lg:flex-row flex-col p-[50px] justify-evenly ">
+    <footer className="flex  gap-10 bg-[#313030] text-white  lg:flex-row flex-col p-[70px] justify-evenly ">
         <div className="flex  flex-col">
            <h4 className="text-xl font-semibold">TITLE HERE</h4> 
            <p className="w-[150px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, saepe?</p>
