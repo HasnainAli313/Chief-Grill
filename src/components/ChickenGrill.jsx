@@ -2,7 +2,7 @@ import img from '../assets/5.jpg'
 
 function ChickenGrill() {
   return (
-    <section className='bg-[#313030] flex flex-row-reverse  flex-wrap justify-center  lg:justify-around items-center pt-10'>
+    <section className='bg-[#313030] flex flex-row-reverse  flex-wrap justify-center  lg:justify-around items-center pt-10 pb-10'>
     <img className='w-[300px] h-[300px] rounded-[50%]' src={img} alt="" />
     <div className=' lg:text-left text-center'>
     <h1 className="custom-font text-7xl lg:text-8xl">ChickenGrill</h1>

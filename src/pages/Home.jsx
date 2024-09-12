@@ -3,6 +3,7 @@ import ChickenGrill from '../components/ChickenGrill'
 import Hero from '../components/Hero'
 import OrientalTaste from '../components/OrientalTaste'
 import Statistics from '../components/Statistics'
+import Subscribe from '../components/Subscribe'
 function Home() {
   return (
     <>
@@ -11,6 +12,7 @@ function Home() {
       <OrientalTaste></OrientalTaste>
       <Statistics></Statistics>
       <ChickenGrill></ChickenGrill>
+      <Subscribe></Subscribe>
     </>
   )
 }
