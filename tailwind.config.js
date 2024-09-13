@@ -8,5 +8,8 @@ export default {
     extend: {},
   },
   plugins: [],
+  backgroundImage: {
+    'lenora-fields': "url('/img/footer-texture.png')",
+  }
 }
 
