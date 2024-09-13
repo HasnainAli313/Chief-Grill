@@ -10,37 +10,36 @@ function Navbar() {
   }
 
   return (
-    <nav className="flex items-center justify-between p-6 bg-gray-800">
+    <nav className="flex sticky top-0 z-10 items-center justify-between p-6 bg-[#313030]" >
       <div className="flex items-center">
-        <Link to="/" className="text-white mr-4 hover:text-gray-300">
+        <Link to="/" className="text-white mr-4 hover:text-gray-300" >
           Chief Grill
         </Link>
       </div>
-      <ul className={`flex gap-5 ${isOpen ? 'block' : 'hidden'} lg:flex lg:gap-5 md:flex-row flex-col items-left absolute lg:static top-16 left-0 w-full lg:w-auto bg-gray-800 lg:bg-transparent p-6 lg:p-0
+      <ul className={`flex gap-5 ${isOpen ? 'block' : 'hidden'} lg:flex lg:gap-5 md:flex-row flex-col items-left absolute lg:static top-16 left-0 w-full lg:w-auto bg-[#313030] lg:bg-transparent p-6 lg:p-0
     `}>
-        <Link to="/" className="text-sm text-gray-500 hover:text-gray-300 ">
+        <Link to="/" className="text-sm text-gray-400 hover:text-gray-300 " >
           Home
         </Link>
-        <Link to="/product" className="text-sm text-gray-500 hover:text-gray-300 ">
+      <a className="text-sm text-gray-400 hover:text-gray-300 " href="#product">
          Product
-        </Link>
-        <Link to="/promo" className="text-sm text-gray-500 hover:text-gray-300">
+      </a>
+      <a href="" className="text-sm text-gray-400 hover:text-gray-300">
           Promo
-        </Link>
-        
-        <Link to="/about" className="text-sm text-gray-500 hover:text-gray-300">
+      </a>
+        <Link to="/about" className="text-sm text-gray-400 hover:text-gray-300">
           About
         </Link>
-        <Link to="/contact" className="text-sm text-gray-500 hover:text-gray-300">
+        <Link to="/Contact" className="text-sm text-gray-400 hover:text-gray-300">
           Contact
         </Link>
       <div className="flex lg:flex-row flex-col  lg:gap-0 gap-2">
-        <Link to="./SignIn" className="text-sm text-gray-500 hover:text-gray-300 mx-3" >Sign in</Link>
-        <Link to="./SignUp" className="text-sm text-gray-500 hover:text-gray-300 mx-3" >Sign up</Link>
+        <Link to="./SignIn" className="text-sm text-gray-400 hover:text-gray-300 mx-3" >Sign in</Link>
+        <Link to="./SignUp" className="text-sm text-gray-400 hover:text-gray-300 mx-3" >Sign up</Link>
       </div>
       </ul>
       <div className="block lg:hidden">
-      <RxHamburgerMenu className="text-gray-500  hover:text-gray-300" onClick={toggleMenu} />
+      <RxHamburgerMenu className="text-gray-400  hover:text-gray-300" onClick={toggleMenu} />
       </div>
     </nav>
     

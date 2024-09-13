@@ -5,7 +5,8 @@ function Statistics() {
       <h1 className="custom-font text-7xl lg:text-8xl">Statistics</h1>
         <p className="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, sint.</p>
         
-        <div className="flex justify-around flex-wrap gap-5 mt-10">
+        <div data-aos="fade-up"
+    data-aos-duration="3000" className="flex justify-around flex-wrap gap-5 mt-10">
             <div className="h-[120px] flex flex-col place-content-center w-[120px] rounded-[50%] p-1  border ">
                 <h4 className=" font-semibold text-xl text-[#ffc404]">123</h4>
                 <h4 className=" font-semibold text-xl text-white">OUTLETS</h4>

@@ -3,7 +3,7 @@ function Hero() {
   return (
     <>
     <header className='flex lg:flex-row flex-col lg:h-[90vh]'>
-      <img src={banner} alt="" />
+      <img src={banner} alt="banner" />
       <div className='h-[501px] lg:text-left text-center lg:w-[625px] bg-[#313030] '>
         <div className=' m-14'>
         <h1 className='custom-font  text-7xl lg:text-8xl'>Chief Grill</h1>

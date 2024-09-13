@@ -5,6 +5,7 @@ import LenoraFields from '../components/LenoraFields'
 import OrientalTaste from '../components/OrientalTaste'
 import Statistics from '../components/Statistics'
 import Subscribe from '../components/Subscribe'
+
 function Home() {
   return (
     <>
