@@ -33,9 +33,13 @@ function Navbar() {
         <Link to="/Contact" className="text-sm text-gray-400 hover:text-gray-300">
           Contact
         </Link>
-      <div className="flex lg:flex-row flex-col  lg:gap-0 gap-2">
-        <Link to="./SignIn" className="text-sm text-gray-400 hover:text-gray-300 mx-3" >Sign in</Link>
-        <Link to="./SignUp" className="text-sm text-gray-400 hover:text-gray-300 mx-3" >Sign up</Link>
+      <div className="flex lg:flex-row flex-col  mt-[-6px] lg:gap-1 gap-2">
+        <button className=" border p-1  hover:bg-gray-400">
+        <Link to="./SignIn" className="text-sm text-white hover:text-black  mx-3" >Sign in</Link>
+        </button>
+        <button className=" border bg-gray-300  hover:bg-gray-400  p-1 ">
+        <Link to="./SignUp" className="text-sm text-black  mx-3" >Sign up</Link>
+        </button>
       </div>
       </ul>
       <div className="block lg:hidden">
