@@ -24,9 +24,6 @@ function Navbar() {
       <a className="text-sm text-gray-400 hover:text-gray-300 " href="#product">
          Product
       </a>
-      <a href="" className="text-sm text-gray-400 hover:text-gray-300">
-          Promo
-      </a>
         <Link to="/about" className="text-sm text-gray-400 hover:text-gray-300">
           About
         </Link>
